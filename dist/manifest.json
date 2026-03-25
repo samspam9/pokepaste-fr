@@ -1,0 +1,16 @@
+{
+  "name": "Pokepaste FR",
+  "description": "Traduction Pokepaste en français",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": "pokepaste-translator-icon.png"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": ["https://pokepast.es/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
