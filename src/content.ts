@@ -7,7 +7,7 @@ import {
   NaturesDict,
   AbilitiesDict,
   miscDict,
-} from "../translations";
+} from "./translations";
 
 const WORD_RE_SRC = "[A-Za-z0-9][A-Za-z0-9\\-+.'()]*";
 
